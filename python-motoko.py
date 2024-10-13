@@ -9,7 +9,7 @@ client = Client(url=urlad)
 
 identity = Identity()
 agent = Agent(identity,client)
-canister_id = 'zydb5-siaaa-aaaab-qacba-cai'
+canister_id = 'zydb5-siaaa-aaaab-qacba-cai' # W waszym przypadku id kanistra będzie inne
 
 method_name = 'dataShow_update'
 method_name_update = 'dataShow_query'
